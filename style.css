@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+p {
+  font-weight: bold;  
+  line-height: 2rem;
+}
+h1 {
+    /* block element ko width di h toh text-align se center ni hoga, we need to set the margin */
+    margin: 50px auto 0 auto;
+    width: 20%;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    color: #4D4C7D; 
+    /* line-height: 1.7;    */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+    color: #66BFBF;
+    font-weight: bold;
+    margin: 1rem auto 2rem auto;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.pro {
+    text-decoration: underline;
+}
+.proP {
+    color: #4D4C7D;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.top-container {
+    background-color: #E8F9FD;
+    position: relative;
+    padding: 45px;
+}
+.middle-container {
+    background-color: #EEEEEE;
+    padding-bottom: 4rem;
+}
+.bottom-cloud {
+   position: absolute;
+   left : 450px;
+   top : 290px;
+}
+.top-cloud {
+  position: absolute;
+  right :470px;
+  top : 70px;
+}
+
+.image {
+    margin-top: 4.2rem;
+    height: 12%;
+    width: 12%;
+    /* float: left; */
+}
+/* .intro {
+   clear: left; 
+   margin-bottom: 2rem;
+} */
+/* .hey {
+    margin: 0;
+    text-align: left;
+} */
+
+.intro {
+    text-align: left;
+    width: 40%;
+    margin: 0 auto 4rem auto;
+}
+.bottom {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.skills {
+    padding: 0 0 0 3rem;
+}
+.skill-row {
+    width: 60%;
+    margin-top: 16px ;
+    margin-bottom: 80px;
+    text-align: left;
+    padding: 2rem 0 2rem 19rem;
+}
+
+.img-skill1 {
+    width: 35%;
+    float: left;
+    margin :0 1rem 1rem 45px;
+    border-radius: 400px;
+}
+
+.img-skill2 {
+    width: 20%;
+    float: right;
+    padding-left: 0rem;
+    margin-right:25px;
+}
+hr {
+    border: dotted #c1dbdb 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 0 auto 4rem auto;
+}
+
+
+.contact-message {
+   width: 40%;
+   text-align: left;
+   margin: 2% auto 5% auto;
+}
+.btn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:15px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#d13c3c;
+	font-family: 'Merriweather', serif;
+	font-size:14px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+    background-color: #50a9a9;
+    padding-top: 2.1rem;
+    padding-bottom: 2.7rem;
+}
+
+a {
+    color: #062c2d;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 9px;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+.copyright {
+    color: brown;
+}
+
+
+
+
+
+
+
+
